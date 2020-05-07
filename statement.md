@@ -12,11 +12,10 @@ Pour une fonction de deux variables, le gradient est un vecteur dont les composa
 
 Sa direction donne la ligne de pente et sa norme donne l'inclinaison.  
 
-![Paraboloide](https://github.com/guillitte/playground-bjgkvyw6/blob/master/paraboloide.png)
-
 Ce programme comporte deux versions de l'algorithme : 
 * La première utilise le gradient analytique de f, qui doit lui être fournie. 
 * La seconde utilise une approximation numérique de ce gradient.
+
 
 ```python runnable
 import math 

@@ -4,11 +4,11 @@ Ce programme python illustre l'algorithme de descente de gradient pour recherche
 Son principe est simple : pour trouver le minimum, il suffit d'effectuer des petits pas dans le sens de la descente, juqu'au momment où la pente s'annule.\
 Nous rechercherons un minimum de la fonction f telle que f(x,y) = (x-2)²+(y-3)². On peut aisément deviner ce minimum car f(x,y) est une somme de carrés.  
 Pour une fonction de deux variables, le gradient est un vecteur dont les composantes sont les dérivées partielles :  
-    df/dx = 2(x-2) \
-    df/dy = 2(y-3)  
-Ce programme comporte deux versions de l'agorithme. \
-La première utilise le gradient analytique de f, qui doit lui être fournie. \
-La seconde utilise une approximation numérique de ce gradient.
+* df/dx = 2(x-2) \
+* df/dy = 2(y-3)  
+Ce programme comporte deux versions de l'algorithme : \
+* La première utilise le gradient analytique de f, qui doit lui être fournie. \
+* La seconde utilise une approximation numérique de ce gradient.
 
 ```python runnable
 import math 
@@ -69,6 +69,6 @@ print(descente1(f, df, 0, 0))
 print(descente2(f, 0, 0))
 ```
 
-# Advanced usage
+# Exercice
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
+Déterminer unn minimum local de la fonction f définie par f(x,y) = x² + 2 y² - xy + 5x - 4y - 5 

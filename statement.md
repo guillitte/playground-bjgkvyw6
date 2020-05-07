@@ -1,4 +1,7 @@
 # Bonjour!
+![Gradient descent](https://ml-cheatsheet.readthedocs.io/en/latest/_images/gradient_descent.png)
+
+
 
 Ce programme python illustre l'algorithme de descente de gradient pour rechercher un minimum local d'une fonction f de deux variables réelles.  
 Son principe est simple : pour trouver le minimum, il suffit d'effectuer des petits pas dans le sens de la descente, juqu'au momment où la pente s'annule.\

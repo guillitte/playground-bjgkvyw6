@@ -6,6 +6,7 @@ Nous rechercherons un minimum de la fonction f telle que f(x,y) = (x-2)²+(y-3)�
 Pour une fonction de deux variables, le gradient est un vecteur dont les composantes sont les dérivées partielles :  
 * df/dx = 2(x-2)  
 * df/dy = 2(y-3)  
+Sa direction donne la ligne de pente et sa norme donne l'inclinaison.  
 
 Ce programme comporte deux versions de l'algorithme : 
 * La première utilise le gradient analytique de f, qui doit lui être fournie. 

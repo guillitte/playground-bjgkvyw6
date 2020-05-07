@@ -31,7 +31,7 @@ def df(x, y):
 def descente1(f, df, x, y, alpha=1e-2, eps=1e-6, maxIter=1000):
     # Recherche le minimum d'une fonction f par descente de gradient
     # df doit être la dérivée de f
-    # a est la valeur initiale
+    # x,y sont les valeurs initiales
     # alpha est le taux d'apprentissage qui détermine la rapidité de la descente (par défaut 1/100)
     # eps est la précision souhaitée (par défaut 1/1000000)
     # maxIter est le nombre maximum d'itération (par défaut 1000)
@@ -52,7 +52,7 @@ def descente1(f, df, x, y, alpha=1e-2, eps=1e-6, maxIter=1000):
 
 def descente2(f, x, y, alpha=1e-2, eps=1e-6, maxIter=1000):
     # Recherche le minimum d'une fonction f par descente de gradient avec dérivée numérique
-    # a est la valeur initiale
+    # x,y sont les valeurs initiales
     # alpha est le taux d'apprentissage qui détermine la rapidité de la descente (par défaut 1/100)
     # eps est la précision souhaitée (par défaut 1/1000000)
     # maxIter est le nombre maximum d'itération (par défaut 1000)    

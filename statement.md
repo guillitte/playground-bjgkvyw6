@@ -17,10 +17,10 @@ Ce programme comporte deux versions de l'algorithme :
 import math 
 
 def f(x, y):
-    return (x-3)**2+(y-2)**2
+    return (x-2)**2+(y-3)**2
 
 def df(x, y):
-    return 2*(x-3) , 2*(y-2) #composantes du gradient : df/dx , df/dy
+    return 2*(x-2) , 2*(y-3) #composantes du gradient : df/dx , df/dy
 
 
 

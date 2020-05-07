@@ -1,11 +1,11 @@
 # Bonjour!
 
-Ce programme python illustre l'algorithme de descente de gradient pour rechercher un minimum local d'une fonction f d'une variable réelle.\
+Ce programme python illustre l'algorithme de descente de gradient pour rechercher un minimum local d'une fonction f d'une variable réelle. \
 Son principe est simple : pour trouver le minimum, il suffit d'effectuer des petits pas dans le sens de la descente, juqu'au momment où la pente s'annule.\
-Nous rechercherons un minimum de la fonction f telle que f(x) = (x-1)²+(1/x-2)².\ 
-Pour une fonction d'une variable, le gradient est simplement la dérivée : f'(x) = 2(x-1)+2(1/x-2)(-1/x²)\
-Ce programme comporte deux versions de l'agorithme.\
-La première utilise la dérivée analytique de f, qui doit lui être fournie.\
+Nous rechercherons un minimum de la fonction f telle que f(x) = (x-1)²+(1/x-2)². \ 
+Pour une fonction d'une variable, le gradient est simplement la dérivée : f'(x) = 2(x-1)+2(1/x-2)(-1/x²) \
+Ce programme comporte deux versions de l'agorithme. \
+La première utilise la dérivée analytique de f, qui doit lui être fournie. \
 La seconde utilise une approximation numérique de cette dérivée._
 
 ```python runnable
